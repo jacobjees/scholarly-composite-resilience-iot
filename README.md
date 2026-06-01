@@ -31,6 +31,22 @@ types) across three intrusion detectors and three defense profiles.
 - **Credential hardening**: +0.0396  *(NIST SP 800-207 §3.3; OWASP IoT Top 10 A1)*
 - **Anomaly detection**: +0.0196  *(NIST SP 800-160 v2 §G.2)*
 
+## Notebook viewers
+
+GitHub sometimes fails to render large notebooks. Use these alternatives if needed:
+
+| # | Notebook | Run in Colab | View on nbviewer |
+|---|---|---|---|
+| 00 | [Environment setup](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/00_environment_setup.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/00_environment_setup.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/00_environment_setup.ipynb) |
+| 01 | [Drive mount & folder structure](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/01_drive_mount_and_folders.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/01_drive_mount_and_folders.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/01_drive_mount_and_folders.ipynb) |
+| 02 | [Dataset extraction & verification](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/02_dataset_extraction_and_verification.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/02_dataset_extraction_and_verification.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/02_dataset_extraction_and_verification.ipynb) |
+| 03 | [Dataset profiling (class distribution)](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/03_dataset_profiling.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/03_dataset_profiling.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/03_dataset_profiling.ipynb) |
+| 04 | [Stratified 70/15/15 split](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/04_train_val_test_split.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/04_train_val_test_split.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/04_train_val_test_split.ipynb) |
+| 05 | [Pillar 1: detection baseline (RF / XGB / MLP)](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/05_pillar1_detection_baseline.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/05_pillar1_detection_baseline.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/05_pillar1_detection_baseline.ipynb) |
+| 06 | [Pillar 1: paper-ready tables and figures](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/06_pillar1_analysis_and_figures.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/06_pillar1_analysis_and_figures.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/06_pillar1_analysis_and_figures.ipynb) |
+| 07 | [Pillar 2: composite resilience scoring](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/07_pillar2_resilience_components.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/07_pillar2_resilience_components.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/07_pillar2_resilience_components.ipynb) |
+| 08 | [Pillar 3: control-family ablation](https://github.com/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/08_pillar3_control_ablation.ipynb) | [Open](https://colab.research.google.com/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/08_pillar3_control_ablation.ipynb) | [Open](https://nbviewer.org/github/jacobjees/scholarly-composite-resilience-iot/blob/main/notebooks/08_pillar3_control_ablation.ipynb) |
+
 ## Repository contents
 
 ```
