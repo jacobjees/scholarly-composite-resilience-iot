@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Marginal contribution of each control family to composite resilience $R_d$, computed via single-family ablation from the HARDENED profile. The family$\to$component mapping reflects standard security literature (see citations). Each row reports the $R_d$ drop when that family is degraded to baseline rubric values while all other families remain at hardened values. Detection input fixed at Random Forest weighted-F1 $= 0.8361$ (with $+0.03$ when anomaly detection is enabled).}
+\label{tab:control_ablation}
+\small
+\begin{tabular}{lcll}
+\toprule
+Control family & Marginal $\Delta R_d$ & Primary effect & Reference \\
+\midrule
+Segmentation & +0.0583 & Limits lateral movement, isolates compromise, partitions trust & NIST SP 800-207 §3.2, §3.4.1 \\
+Secure updates & +0.0437 & Reduces firmware exposure, preserves recovery channel & NIST SP 800-193 §4; OWASP IoT Top 10 A4 \\
+Recovery & rollback & +0.0417 & Restores operational continuity, ensures update integrity & NIST SP 800-193 §4.4 \\
+Credential hardening & +0.0396 & Raises foothold cost, enforces zero-trust access & NIST SP 800-207 §3.3; OWASP IoT Top 10 A1 \\
+Anomaly detection & +0.0196 & Improves observability, triggers isolation of degraded services & NIST SP 800-160 v2 §G.2 \\
+\bottomrule
+\end{tabular}
+\end{table}

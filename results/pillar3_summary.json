@@ -1,0 +1,40 @@
+{
+  "pillar": "Pillar 3 (expanded mapping): control-family ablation",
+  "mapping": "Expanded per NIST SP 800-207, SP 800-160 v2, SP 800-193, OWASP IoT Top 10",
+  "anchor_profile": "hardened",
+  "detection_input_D_d": 0.8360520594093842,
+  "d_bonus_anomaly_detection": 0.03,
+  "R_d_full_hardened": 0.5861697879192993,
+  "ablation": [
+    {
+      "family": "Segmentation",
+      "R_without": 0.527836454585966,
+      "marginal_gain": 0.05833333333333335,
+      "citation": "NIST SP 800-207 \u00a73.2, \u00a73.4.1"
+    },
+    {
+      "family": "Secure updates",
+      "R_without": 0.5424197879192993,
+      "marginal_gain": 0.043749999999999956,
+      "citation": "NIST SP 800-193 \u00a74; OWASP IoT Top 10 A4"
+    },
+    {
+      "family": "Recovery & rollback",
+      "R_without": 0.5445031212526326,
+      "marginal_gain": 0.04166666666666674,
+      "citation": "NIST SP 800-193 \u00a74.4"
+    },
+    {
+      "family": "Credential hardening",
+      "R_without": 0.546586454585966,
+      "marginal_gain": 0.039583333333333304,
+      "citation": "NIST SP 800-207 \u00a73.3; OWASP IoT Top 10 A1"
+    },
+    {
+      "family": "Anomaly detection",
+      "R_without": 0.5665864545859659,
+      "marginal_gain": 0.019583333333333397,
+      "citation": "NIST SP 800-160 v2 \u00a7G.2"
+    }
+  ]
+}

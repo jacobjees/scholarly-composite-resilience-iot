@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Composite resilience score $R_d$ for consumer IoT, computed via Eq.~6 across three defense profiles and three intrusion detectors. The detection input $D_d$ is the weighted-F1 from Pillar~1; network exposure $N_d$ is measured from CICIoT2023 benign traffic; remaining components follow the documented rubric (Sec.~X). Resilience increases monotonically with profile strength across all detectors.}
+\label{tab:resilience_scores}
+\small
+\begin{tabular}{lcccccccc}
+\toprule
+Detector & Profile & $E_d$ & $A_d$ & $C^{*}_{d}$ & $D_d$ & $RP_d$ & $X_d$ & $R_d$ \\
+\midrule
+Random Forest & baseline & 0.599 & 0.475 & 0.175 & 0.836 & 0.213 & 0.750 & \textbf{0.400} \\
+Random Forest & hardened & 0.412 & 0.475 & 0.588 & 0.836 & 0.550 & 0.600 & \textbf{0.581} \\
+Random Forest & resilient & 0.237 & 0.475 & 0.837 & 0.836 & 0.838 & 0.450 & \textbf{0.725} \\
+\midrule
+XGBoost & baseline & 0.599 & 0.475 & 0.175 & 0.783 & 0.213 & 0.750 & \textbf{0.391} \\
+XGBoost & hardened & 0.412 & 0.475 & 0.588 & 0.783 & 0.550 & 0.600 & \textbf{0.572} \\
+XGBoost & resilient & 0.237 & 0.475 & 0.837 & 0.783 & 0.838 & 0.450 & \textbf{0.716} \\
+\midrule
+MLP & baseline & 0.599 & 0.475 & 0.175 & 0.763 & 0.213 & 0.750 & \textbf{0.388} \\
+MLP & hardened & 0.412 & 0.475 & 0.588 & 0.763 & 0.550 & 0.600 & \textbf{0.569} \\
+MLP & resilient & 0.237 & 0.475 & 0.837 & 0.763 & 0.838 & 0.450 & \textbf{0.713} \\
+\bottomrule
+\end{tabular}
+\end{table}

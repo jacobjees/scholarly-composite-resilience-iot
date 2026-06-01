@@ -1,0 +1,232 @@
+{
+  "method": "percentile-based: +inf -> 99.9th pct (train), -inf -> 0.1st pct (train), nan -> median (train)",
+  "inf_summary_before": {
+    "train": [
+      733,
+      1039,
+      [
+        [
+          "Rate",
+          733
+        ]
+      ]
+    ],
+    "val": [
+      162,
+      212,
+      [
+        [
+          "Rate",
+          162
+        ]
+      ]
+    ],
+    "test": [
+      142,
+      198,
+      [
+        [
+          "Rate",
+          142
+        ]
+      ]
+    ]
+  },
+  "replacement_values": {
+    "Header_Length": {
+      "pos_inf_fill": 44.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 20.0
+    },
+    "Protocol Type": {
+      "pos_inf_fill": 47.0,
+      "neg_inf_fill": 1.0,
+      "nan_fill": 6.0
+    },
+    "Time_To_Live": {
+      "pos_inf_fill": 232.0,
+      "neg_inf_fill": 48.79999923706055,
+      "nan_fill": 64.0
+    },
+    "Rate": {
+      "pos_inf_fill": 313007.75,
+      "neg_inf_fill": 23.14846420288086,
+      "nan_fill": 24654.97265625
+    },
+    "fin_flag_number": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "syn_flag_number": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "rst_flag_number": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "psh_flag_number": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "ack_flag_number": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "ece_flag_number": {
+      "pos_inf_fill": 0.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "cwr_flag_number": {
+      "pos_inf_fill": 0.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "ack_count": {
+      "pos_inf_fill": 100.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "syn_count": {
+      "pos_inf_fill": 100.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "fin_count": {
+      "pos_inf_fill": 100.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "rst_count": {
+      "pos_inf_fill": 100.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "HTTP": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "HTTPS": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "DNS": {
+      "pos_inf_fill": 0.30000001192092896,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "Telnet": {
+      "pos_inf_fill": 0.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "SMTP": {
+      "pos_inf_fill": 0.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "SSH": {
+      "pos_inf_fill": 0.10000000149011612,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "IRC": {
+      "pos_inf_fill": 0.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "TCP": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.9900000095367432
+    },
+    "UDP": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "DHCP": {
+      "pos_inf_fill": 0.029999999329447746,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "ARP": {
+      "pos_inf_fill": 0.30000001192092896,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "ICMP": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "IGMP": {
+      "pos_inf_fill": 0.0,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "IPv": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.699999988079071,
+      "nan_fill": 1.0
+    },
+    "LLC": {
+      "pos_inf_fill": 1.0,
+      "neg_inf_fill": 0.699999988079071,
+      "nan_fill": 1.0
+    },
+    "Tot sum": {
+      "pos_inf_fill": 94952.0,
+      "neg_inf_fill": 600.0,
+      "nan_fill": 6000.0
+    },
+    "Min": {
+      "pos_inf_fill": 1514.0,
+      "neg_inf_fill": 46.0,
+      "nan_fill": 60.0
+    },
+    "Max": {
+      "pos_inf_fill": 6343.0,
+      "neg_inf_fill": 60.0,
+      "nan_fill": 60.0
+    },
+    "AVG": {
+      "pos_inf_fill": 2154.360107421875,
+      "neg_inf_fill": 60.0,
+      "nan_fill": 60.0
+    },
+    "Std": {
+      "pos_inf_fill": 1932.22265625,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    },
+    "Tot size": {
+      "pos_inf_fill": 2154.360107421875,
+      "neg_inf_fill": 60.0,
+      "nan_fill": 60.0
+    },
+    "IAT": {
+      "pos_inf_fill": 0.047187089920043945,
+      "neg_inf_fill": 3.4809113458322827e-06,
+      "nan_fill": 4.1069983126362786e-05
+    },
+    "Number": {
+      "pos_inf_fill": 100.0,
+      "neg_inf_fill": 10.0,
+      "nan_fill": 100.0
+    },
+    "Variance": {
+      "pos_inf_fill": 3733484.5,
+      "neg_inf_fill": 0.0,
+      "nan_fill": 0.0
+    }
+  }
+}

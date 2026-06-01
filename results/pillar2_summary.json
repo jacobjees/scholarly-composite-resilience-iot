@@ -1,0 +1,178 @@
+{
+  "pillar": "Pillar 2: Composite resilience scoring",
+  "dataset": "CICIoT2023",
+  "device_class": "Consumer IoT (aggregate)",
+  "measured_components": {
+    "N_d_network_exposure": 0.046133327574352734,
+    "N_d_source": "risky-protocol activity in benign test flows",
+    "A_d_autonomy_L2": 0.475
+  },
+  "rubric_components": {
+    "firmware_F_d": {
+      "baseline": 0.8,
+      "hardened": 0.55,
+      "resilient": 0.3
+    },
+    "ui_U_d": {
+      "baseline": 0.7,
+      "hardened": 0.5,
+      "resilient": 0.3
+    },
+    "dependency_X_d": {
+      "baseline": 0.75,
+      "hardened": 0.6,
+      "resilient": 0.45
+    },
+    "controls": {
+      "baseline": {
+        "H": 0.2,
+        "G": 0.15,
+        "Q": 0.25,
+        "Z": 0.1
+      },
+      "hardened": {
+        "H": 0.65,
+        "G": 0.6,
+        "Q": 0.7,
+        "Z": 0.4
+      },
+      "resilient": {
+        "H": 0.85,
+        "G": 0.85,
+        "Q": 0.85,
+        "Z": 0.8
+      }
+    },
+    "recovery": {
+      "baseline": {
+        "B": 0.2,
+        "Uc": 0.3,
+        "Is": 0.15,
+        "Rc": 0.2
+      },
+      "hardened": {
+        "B": 0.55,
+        "Uc": 0.65,
+        "Is": 0.5,
+        "Rc": 0.5
+      },
+      "resilient": {
+        "B": 0.85,
+        "Uc": 0.85,
+        "Is": 0.8,
+        "Rc": 0.85
+      }
+    },
+    "cloud_C_d": {
+      "baseline": 0.85,
+      "hardened": 0.55,
+      "resilient": 0.3
+    }
+  },
+  "detection_input_D_d": {
+    "Random Forest": 0.8360520594093842,
+    "XGBoost": 0.7828455995500003,
+    "MLP": 0.7630384339181109
+  },
+  "resilience_scores": [
+    {
+      "Detector": "Random Forest",
+      "Profile": "baseline",
+      "E_d": 0.5990333318935881,
+      "A_d": 0.475,
+      "C*_d": 0.175,
+      "D_d": 0.8360520594093842,
+      "RP_d": 0.21250000000000002,
+      "X_d": 0.75,
+      "R_d": 0.39991978791929933
+    },
+    {
+      "Detector": "Random Forest",
+      "Profile": "hardened",
+      "E_d": 0.4115333318935882,
+      "A_d": 0.475,
+      "C*_d": 0.5875,
+      "D_d": 0.8360520594093842,
+      "RP_d": 0.55,
+      "X_d": 0.6,
+      "R_d": 0.5811697879192992
+    },
+    {
+      "Detector": "Random Forest",
+      "Profile": "resilient",
+      "E_d": 0.23653333189358816,
+      "A_d": 0.475,
+      "C*_d": 0.8374999999999999,
+      "D_d": 0.8360520594093842,
+      "RP_d": 0.8375,
+      "X_d": 0.45,
+      "R_d": 0.7249197879192992
+    },
+    {
+      "Detector": "XGBoost",
+      "Profile": "baseline",
+      "E_d": 0.5990333318935881,
+      "A_d": 0.475,
+      "C*_d": 0.175,
+      "D_d": 0.7828455995500003,
+      "RP_d": 0.21250000000000002,
+      "X_d": 0.75,
+      "R_d": 0.391052044609402
+    },
+    {
+      "Detector": "XGBoost",
+      "Profile": "hardened",
+      "E_d": 0.4115333318935882,
+      "A_d": 0.475,
+      "C*_d": 0.5875,
+      "D_d": 0.7828455995500003,
+      "RP_d": 0.55,
+      "X_d": 0.6,
+      "R_d": 0.5723020446094019
+    },
+    {
+      "Detector": "XGBoost",
+      "Profile": "resilient",
+      "E_d": 0.23653333189358816,
+      "A_d": 0.475,
+      "C*_d": 0.8374999999999999,
+      "D_d": 0.7828455995500003,
+      "RP_d": 0.8375,
+      "X_d": 0.45,
+      "R_d": 0.716052044609402
+    },
+    {
+      "Detector": "MLP",
+      "Profile": "baseline",
+      "E_d": 0.5990333318935881,
+      "A_d": 0.475,
+      "C*_d": 0.175,
+      "D_d": 0.7630384339181109,
+      "RP_d": 0.21250000000000002,
+      "X_d": 0.75,
+      "R_d": 0.3877508503374204
+    },
+    {
+      "Detector": "MLP",
+      "Profile": "hardened",
+      "E_d": 0.4115333318935882,
+      "A_d": 0.475,
+      "C*_d": 0.5875,
+      "D_d": 0.7630384339181109,
+      "RP_d": 0.55,
+      "X_d": 0.6,
+      "R_d": 0.5690008503374203
+    },
+    {
+      "Detector": "MLP",
+      "Profile": "resilient",
+      "E_d": 0.23653333189358816,
+      "A_d": 0.475,
+      "C*_d": 0.8374999999999999,
+      "D_d": 0.7630384339181109,
+      "RP_d": 0.8375,
+      "X_d": 0.45,
+      "R_d": 0.7127508503374205
+    }
+  ]
+}

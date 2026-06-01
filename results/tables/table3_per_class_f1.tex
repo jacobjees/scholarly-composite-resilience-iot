@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Per-class F1 score on the test set, mean across 5 random seeds. Support is the number of test flows per class. Highest F1 per class is shown in bold. All detectors achieve near-perfect F1 on Mirai but degrade on minority classes (Web, BruteForce) and exhibit a structural confusion between DDoS and DoS (Section X).}
+\label{tab:per_class_f1}
+\small
+\begin{tabular}{lrccc}
+\toprule
+Class & Support & Random Forest & XGBoost & MLP \\
+\midrule
+Benign & 164,729 & 0.8315 & \textbf{0.8420} & 0.7756 \\
+BruteForce & 1,959 & \textbf{0.2422} & 0.1472 & 0.0926 \\
+DDoS & 5,097,668 & \textbf{0.9141} & 0.8139 & 0.7952 \\
+DoS & 1,176,768 & 0.4575 & \textbf{0.5679} & 0.5530 \\
+Mirai & 395,108 & \textbf{0.9982} & 0.9973 & 0.9926 \\
+Recon & 103,580 & \textbf{0.7438} & 0.7412 & 0.6643 \\
+Spoofing & 72,969 & 0.7981 & \textbf{0.8959} & 0.8225 \\
+Web & 3,724 & \textbf{0.1774} & 0.1727 & 0.0914 \\
+\bottomrule
+\end{tabular}
+\end{table}

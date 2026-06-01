@@ -1,0 +1,15 @@
+# Versions used in the original Colab Pro+ run (Python 3.12 on Linux).
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+xgboost==3.2.0
+matplotlib==3.10.0
+seaborn==0.13.2
+pyarrow>=14.0.0
+tqdm>=4.66.0
+
+# Optional: GPU-accelerated Random Forest (cuML).
+# pip install cuml-cu12 --extra-index-url=https://pypi.nvidia.com
+
+# Optional: PyTorch (pre-installed on Colab GPU runtimes).
+# torch>=2.0

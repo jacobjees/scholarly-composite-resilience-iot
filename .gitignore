@@ -1,0 +1,30 @@
+# Datasets — NEVER commit (CIC license restricts redistribution)
+data/
+*.zip
+*.parquet
+*.csv.gz
+CSV/
+CICIoT2023*/
+
+# Trained model checkpoints (regenerable, large)
+models/
+*.pkl
+*.pt
+*.joblib
+
+# Jupyter / Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local environment
+.env
+*.local

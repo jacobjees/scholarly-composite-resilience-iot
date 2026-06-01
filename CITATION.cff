@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or framework, please cite the paper below."
+title: "A Composite Resilience Framework for Consumer IoT: Quantifying Exposure, Detection, and Recovery Against Adaptive Adversaries"
+authors:
+  - family-names: "Jacob"
+    given-names: "Jeesmon"
+date-released: 2026-06-01
+license: MIT
+repository-code: "https://github.com/jacobjees/scholarly-composite-resilience-iot"
+preferred-citation:
+  type: article
+  title: "A Composite Resilience Framework for Consumer IoT: Quantifying Exposure, Detection, and Recovery Against Adaptive Adversaries"
+  authors:
+    - family-names: "Jacob"
+      given-names: "Jeesmon"
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Submitted"
